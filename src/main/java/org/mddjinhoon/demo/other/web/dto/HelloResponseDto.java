@@ -1,4 +1,4 @@
-package org.mddjinhoon.demo.web.dto;
+package org.mddjinhoon.demo.other.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

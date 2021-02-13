@@ -1,4 +1,4 @@
-package org.mddjinhoon.demo.web.dto;
+package org.mddjinhoon.demo.other.web.dto;
 
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;

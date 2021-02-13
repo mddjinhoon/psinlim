@@ -1,4 +1,0 @@
-org/mddjinhoon/demo/Application.java
- org.mddjinhoon.demo.Application
-org/mddjinhoon/demo/web/CheckController.java
- org.mddjinhoon.demo.web.CheckController

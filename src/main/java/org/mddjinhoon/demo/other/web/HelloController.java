@@ -1,6 +1,6 @@
-package org.mddjinhoon.demo.web;
+package org.mddjinhoon.demo.other.web;
 
-import org.mddjinhoon.demo.web.dto.HelloResponseDto;
+import org.mddjinhoon.demo.other.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
