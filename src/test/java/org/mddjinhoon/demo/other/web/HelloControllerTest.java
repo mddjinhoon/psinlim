@@ -1,4 +1,4 @@
-package org.mddjinhoon.demo.web;
+package org.mddjinhoon.demo.other.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

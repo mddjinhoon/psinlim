@@ -1,4 +1,4 @@
-package org.mddjinhoon.demo.web;
+package org.mddjinhoon.demo.other.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
