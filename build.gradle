@@ -32,5 +32,8 @@ dependencies {
     compile('org.projectlombok:lombok')
     // JPA
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    // localDB -> application 재실행 시 초기화
     compile('com.h2database:h2')
+    // mustache
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
