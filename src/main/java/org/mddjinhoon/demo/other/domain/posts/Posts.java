@@ -3,6 +3,7 @@ package org.mddjinhoon.demo.other.domain.posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.mddjinhoon.demo.other.domain.BaseTimeEntity;
 
 import javax.persistence.*;
 
