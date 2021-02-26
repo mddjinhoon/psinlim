@@ -3,13 +3,14 @@ package org.mddjinhoon.demo.other.domain.posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.mddjinhoon.demo.other.domain.BaseTimeEntity;
 
 import javax.persistence.*;
 
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id // Primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
