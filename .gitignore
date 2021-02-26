@@ -3,3 +3,6 @@
 /.idea/
 /build/
 /.metadata/
+
+# Application ignore list
+node_modules/
