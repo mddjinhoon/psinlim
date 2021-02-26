@@ -36,4 +36,9 @@ dependencies {
     compile('com.h2database:h2')
     // mustache
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    // handlebar
+    compile 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.2'
+    compile 'org.beryx:handlebars-java-helpers:0.4.1'
+    // FileUtils
+    implementation 'commons-io:commons-io:2.4'
 }

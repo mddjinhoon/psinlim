@@ -15,6 +15,11 @@ public class IndexController {
 
     private final PostsService postsService;
 
+    @GetMapping
+    public String test() {
+        return "test";
+    }
+
     @RequestMapping("/jsp/hello")
     public String hello() {
         return "hello";
