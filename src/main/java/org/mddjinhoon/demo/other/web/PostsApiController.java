@@ -1,7 +1,6 @@
 package org.mddjinhoon.demo.other.web;
 
 import com.github.jknack.handlebars.Handlebars;
-import com.github.jknack.handlebars.Helper;
 import com.github.jknack.handlebars.Template;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.FileUtils;
@@ -46,7 +45,6 @@ public class PostsApiController {
         return id;
     }
 
-    /* 한글 파일 다운로드 */
     @PostMapping("/api/post/print")
     public HttpEntity<byte[]> print(HttpServletRequest request) throws IOException {
         HttpHeaders headers = new HttpHeaders();

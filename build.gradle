@@ -25,6 +25,7 @@ repositories {
 }
 
 dependencies {
+    compile("org.springframework.boot:spring-boot-devtools") // 자동재시작
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
