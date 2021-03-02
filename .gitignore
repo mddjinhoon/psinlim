@@ -6,3 +6,4 @@
 
 # Application ignore list
 node_modules/
+application-oauth.properties
