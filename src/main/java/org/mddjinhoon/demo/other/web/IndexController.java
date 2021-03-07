@@ -15,8 +15,10 @@ public class IndexController {
 
     private final PostsService postsService;
 
-    @GetMapping
+    @GetMapping("/test")
     public String test() {
+        System.out.println("@@@@@@@@@@@@@@@@@@@@");
+
         return "test";
     }
 

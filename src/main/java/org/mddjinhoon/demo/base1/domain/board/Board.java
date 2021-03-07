@@ -1,31 +1,32 @@
-package org.mddjinhoon.demo.other.domain.posts;
+package org.mddjinhoon.demo.base1.domain.board;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.mddjinhoon.demo.base1.domain.BaseTimeEntity;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Getter
-@NoArgsConstructor
+@NoArgsConstructor // 기본생성자임 헷갈리지마셈.
 @Entity
-public class Posts extends BaseTimeEntity {
+public class Board extends BaseTimeEntity {
 
-    @Id // Primary key
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
     private Long id;
 
-    @Column(length = 500, nullable = false) // base value 변경
     private String title;
 
-    @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
 
     private String author;
 
-    @Builder // 빌더 클래스..?
-    public Posts(String title, String content, String author) {
+    @Builder
+    public Board(String title, String content, String author) {
         this.title = title;
         this.content = content;
         this.author = author;

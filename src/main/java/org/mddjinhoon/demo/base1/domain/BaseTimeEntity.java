@@ -1,4 +1,4 @@
-package org.mddjinhoon.demo.other.domain;
+package org.mddjinhoon.demo.base1.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
